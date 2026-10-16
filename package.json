@@ -1,0 +1,17 @@
+{
+  "name": "max-mercado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loja demonstrativa Max Mercado com carrinho, pedidos via WhatsApp e painel administrativo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
